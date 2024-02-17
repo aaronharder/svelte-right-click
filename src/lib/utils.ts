@@ -30,8 +30,8 @@ export function pageReload() {
 /**
  * @name pagePrint
  * @description A generic wrapper around window.print() with error handling */
-export function pagePrint(state: Writable<boolean>) {
-	window.addEventListener('beforeprint', () => state.set(false));
+export function pagePrint() {
+	// window.addEventListener('beforeprint', () => state.set(false));
 	if (!window || !window.print)
 		throw new Error('svelte-right-click(pagePrint): window.print Method not found.');
 	window.print();
