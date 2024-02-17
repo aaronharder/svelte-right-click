@@ -1,6 +1,6 @@
 # svelte-right-click
 
-A custom context menu for your Svelte application.
+A custom context menu for your Svelte application. Altered for Blacklight.
 
 [![Unit tests](https://github.com/stordahl/svelte-right-click/actions/workflows/vitest.yml/badge.svg)](https://github.com/stordahl/svelte-right-click/actions/workflows/vitest.yml)
 
