@@ -104,7 +104,7 @@
 		border: var(--border, 1px solid lightgray);
 		border-radius: var(--border-radius, 5px);
 		box-shadow: var(--box-shadow, 0px 0px 15px #163a6726);
-		z-index: 100;
+		z-index: var(--z-index, 9999);
 		font-family: var(--font-family, sans-serif);
 		color: var(--color, #000000);
 		padding: var(--padding, 5px);
